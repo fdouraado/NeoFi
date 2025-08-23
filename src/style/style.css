@@ -113,3 +113,27 @@ main {
 }
 
 /*  --------------- FIM main Styles --------------- */
+
+/*  --------------- Partners Styles --------------- */
+.partners {
+    background-color: var(--cor-gray-three);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 40px 0px;
+    
+}
+
+.paragrafo-principal{
+    font-size: 16px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.logoipsum{
+    gap: 50px;
+    display: flex;
+
+}   
+/*  --------------- FIM Partners Styles --------------- */
