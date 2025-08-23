@@ -1,0 +1,63 @@
+/* Global CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+/* style gradient cores */
+
+:root {
+    --cor-green: #9DFF3A;
+    --cor-gradient: linear-gradient(90deg, #75A941 0%, #3A7500 100%);
+    --cor-white: #E5E5E5;
+    --cor-gray: #999999;
+    --cor-gray-two: #4D4D4D;
+    --cor-gray-three: #2E2E2E;
+    --cor-black: #0F0F0F;
+
+/* fonts */
+--font-family: 'Alexandria', sans-serif;
+
+--font-title-one: 64px;
+--font-title-one-weight: 700;
+
+--font-title-two: 48px;
+--font-title-two-weight: 400;
+
+--font-title-three: 40px;
+--font-title-three-weight: 400;
+
+--font-subtitle: 20px
+--font-subtitle-weight: 400;
+
+--font-button: 18px;
+--font-button-weight: 400;
+
+--font-title-footer-one: 16px;
+--font-title-footer-weight: 400;
+
+--font-title-footer-two: 14px;
+--font-title-footer-two-weight: 400;
+
+--font-caption: 12px;
+--font-caption-weight: 400;
+}
+
+
+a {
+    text-decoration: none;;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--cor-white);
+}
+
+p {
+    color: var(--cor-gray);
+}
+
+

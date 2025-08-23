@@ -1,0 +1,115 @@
+@import url(./global.css);
+
+/* ----------- Header Styles -----------*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: var(--cor-black);
+}
+
+.logo-header img {
+    width: 107px;
+    height: 32px;
+}
+
+.nav-header ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+
+.nav-header ul li a {   
+    text-decoration: none;
+    color: var(--cor-gray);
+}
+
+.nav-header .active  {
+    color: var(--cor-white);
+}
+
+.container-btn-header {
+    display: flex;
+    gap: 16px;
+}
+
+.container-btn-header .btn-tryforfree {
+    padding: 10px 20px; /* superior/inferior & esquerda/direita */
+    border-radius: 20px; /* arredondamento */
+    cursor: pointer; /* cursor do mouse */
+    background-color: var(--cor-green);
+    color: var(--cor-black);
+    font-size: var(--font-button);
+    font-weight: var(--font-button-weight);
+}
+
+.container-btn-header .btn-login {
+    padding: 10px 20px; /* superior/inferior & esquerda/direita */
+    border-radius: 20px; /* arredondamento */
+    cursor: pointer; /* cursor do mouse */
+    background-color: var(--cor-black);
+    color: var(--cor-white);
+    font-size: var(--font-button);
+    font-weight: var(--font-button-weight);
+}
+
+/* ----------- FIM Header Styles -----------*/
+
+/*  --------------- main Styles --------------- */
+
+main {
+    background-color: var(--cor-black);
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.content-hero-globo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 568px;
+}
+
+.content-hero-globo h1 {
+    font-size: var(--font-title-one);
+    font-weight: var(--font-title-one-weight);
+    color: var(--cor-white);
+    margin-bottom: 20px;
+}
+
+.content-hero-globo p {
+    font-size: var(--font-subtitle);
+    font-weight: var(--font-subtitle-weight);
+    letter-spacing: 2px;
+}
+
+
+
+.content-hero-img {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.get-started {
+    padding: 10px 20px; /* superior/inferior & esquerda/direita */
+    border-radius: 20px; /* arredondamento */
+    color: var(--cor-black);
+    background-color: var(--cor-green);
+}
+
+.watch {
+    align-items: center;
+    display: flex;
+    border: 1px solid var(--cor-gray);
+    border-radius: 20px; /* arredondamento */
+    padding: 6px 20px; /* superior/inferior & esquerda/direita */
+    color: var(--cor-white);
+}
+
+/*  --------------- FIM main Styles --------------- */
