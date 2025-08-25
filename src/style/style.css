@@ -7,7 +7,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 20px 0px;
-    background-color: var(--cor-black);
+    background-color: var(--color-gray4);
 }
 
 .logo-header img {
@@ -24,11 +24,11 @@ header {
 
 .nav-header ul li a {   
     text-decoration: none;
-    color: var(--cor-gray);
+    color: var(--color-gray1);
 }
 
 .nav-header .active  {
-    color: var(--cor-white);
+    color: var(--color-white);
 }
 
 .container-btn-header {
@@ -40,20 +40,20 @@ header {
     padding: 10px 20px; /* superior/inferior & esquerda/direita */
     border-radius: 20px; /* arredondamento */
     cursor: pointer; /* cursor do mouse */
-    background-color: var(--cor-green);
-    color: var(--cor-black);
-    font-size: var(--font-button);
-    font-weight: var(--font-button-weight);
+    background-color: var(--color-green);
+    color: var(--color-gray4);
+    font-size: var(--font-website-button-size);
+    font-weight: var(--font-website-button-weight);
 }
 
 .container-btn-header .btn-login {
     padding: 10px 20px; /* superior/inferior & esquerda/direita */
     border-radius: 20px; /* arredondamento */
     cursor: pointer; /* cursor do mouse */
-    background-color: var(--cor-black);
-    color: var(--cor-white);
-    font-size: var(--font-button);
-    font-weight: var(--font-button-weight);
+    background-color: var(--color-gray4);
+    color: var(--color-white);
+    font-size: var(--font-website-button-size);
+    font-weight: var(--font-website-button-weight);
 }
 
 /* ----------- FIM Header Styles -----------*/
@@ -61,7 +61,7 @@ header {
 /*  --------------- main Styles --------------- */
 
 main {
-    background-color: var(--cor-black);
+    background-color: var(--color-gray4);
     display: flex;
     justify-content: center;
     padding: 60px 0px;
@@ -76,15 +76,15 @@ main {
 }
 
 .content-hero-globo h1 {
-    font-size: var(--font-title-one);
-    font-weight: var(--font-title-one-weight);
-    color: var(--cor-white);
+    font-size: var(--font-website-title1-size);
+    font-weight: var(--font-website-title1-weight);
+    color: var(--color-white);
     margin-bottom: 20px;
 }
 
 .content-hero-globo p {
-    font-size: var(--font-subtitle);
-    font-weight: var(--font-subtitle-weight);
+    font-size: var(--font-website-subtitle-size);
+    font-weight: var(--font-website-subtitle-weight);
     letter-spacing: 2px;
 }
 
@@ -99,24 +99,24 @@ main {
 .get-started {
     padding: 10px 20px; /* superior/inferior & esquerda/direita */
     border-radius: 20px; /* arredondamento */
-    color: var(--cor-black);
-    background-color: var(--cor-green);
+    color: var(--color-gray4);
+    background-color: var(--color-green);
 }
 
 .watch {
     align-items: center;
     display: flex;
-    border: 1px solid var(--cor-gray);
+    border: 1px solid var(--color-gray1);
     border-radius: 20px; /* arredondamento */
     padding: 6px 20px; /* superior/inferior & esquerda/direita */
-    color: var(--cor-white);
+    color: var(--color-white);
 }
 
 /*  --------------- FIM main Styles --------------- */
 
 /*  --------------- Partners Styles --------------- */
 .partners {
-    background-color: var(--cor-gray-three);
+    background-color: var(--color-gray3);
     display: flex;
     flex-direction: column;
     gap: 40px;
