@@ -85,6 +85,7 @@ main {
 .content-hero-globo p {
     font-size: var(--font-website-subtitle-size);
     font-weight: var(--font-website-subtitle-weight);
+    font-family: var(--font-website-p-font-family);
     letter-spacing: 2px;
 }
 
@@ -121,8 +122,7 @@ main {
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    padding: 40px 0px;
-    
+    padding: 40px 0px; 
 }
 
 .paragrafo-principal{
@@ -138,89 +138,139 @@ main {
 }   
 /*  --------------- FIM Partners Styles --------------- */
 /* <!-----------------Section Breakdown-----------------> */
-body{
-    background-color: var(--color-gray4);
-}
+
 .breakdown {
   display: flex;
-  margin-top: 60px;
-  flex-direction: column;
   align-items: center;
-  margin-right: 120px;
-  margin-left: 120px;
+  flex-direction: column;
+  gap: 60px;
+  background-color: rgba(0, 0, 0, 1);
 }
 
-.breakdown-future {
+.breakdown-future{
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-span {
-  padding: 12px 20px;
-  color: var(--color-green);
-  border: 1px solid var(--color-gray3);
-  border-radius: 24px;
-  font-size: var(--font-website-text2-size);
-  font-weight: var(--font-website-text2-weight);
+  gap: 20px;
+  width: 572px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 
 .breakdown-future h2{
-  padding: 20px;
-  color: var(--color-white);
-  font-size: var(--font-website-title2-size);
-  font-weight: var(--font-website-title1-weight);
-  width: 444px;
+color: var(--color-white);
+font-size: var(--font-website-title2-size);
+font-weight: var(--font-website-title1-weight);
 }
 
-.breakdown-future p {
-  display: flex;
-  padding: 20px;
-  justify-content: space-around;
-  text-align: center;
-  margin-bottom: 60px;
-  width: 572px;
+.breakdown-future p{
   color: var(--color-gray1);
-  font-size: var(--font-website-button-size);
-  font-weight: var(--font-website-button-weight);
+  font-size: var(--font-website-p-size);
+  font-weight: var(--font-font-website-p-weight);
+  font-family: var(--font-website-p-font-family);
 }
-
 
 .box-information {
   display: flex;
   justify-content: space-around;
   text-align: center;
   gap: 20px;
-  margin: 0px 120px 0px 120px;
 }
 
 .box-breakdown {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 410.67;
-  height: 264px;
-  border: 1px solid var(--color-gray3);
+  border: 2px solid var(--color-gray3);
   border-radius: 12px;
+  width: 410.67px;
+  gap: 16px;
+  margin-bottom: 60px;
 }
 
-.box-breakdown img {
+.box-breakdown img{
   margin: 48px 181.33px 36px 181.33px;
-  margin-bottom: 36px;
-} 
-
-.box-breakdown h2{
-  font-size: 20px;
-  color: var(--color-white);
+  gap: 36px;
 }
 
-.box-breakdown p {
-  font-size: 16px;
+.box-breakdown h2 {
+  max-width: 338.67px;
+  font-size: var(--font-website-subtitle-size);
+  font-weight: var(--font-website-subtitle-weight);
+  font-family: var(--font-website-p-font-family);
+}
+
+.box-breakdown p{
+  font-size: var(--font-website-text1-size);
+  font-weight: var(--font-website-text1-weight);
+  margin-bottom: 48px;
+  text-align: center;
   color: var(--color-gray1);
-  padding: 20px;
-  margin-left: 36px;
-  margin-right: 36px;
+  width: 338.67px;
+
+}
+/* <!---------------- FIM Section Breakdown------------x-------> */
+
+/*--------------------------Section Statistic------------------------*/
+.Statistics {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   background-color: var(--color-gray4);
 }
 
-/* <!---------------- FIM Section Breakdown------------x-------> */
+.Statistics-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 644px;
+    text-align: center;
+    width: 704px;
+    margin-top: 60px;
+}
+
+.Statistics-content h2{
+    color: var(--color-white);
+    font-size: var(--font-website-title2-size);
+    font-weight: var(--font-website-title1-weight);
+}
+
+.Statistics-content p{
+    color: var(--color-gray1);
+    font-size: var(--font-website-p-size);
+    font-weight: var(--font-font-website-p-weight);
+    font-family: var(--font-website-p-font-family);
+    text-align: center;
+    width: 644px;
+}
+.numbers-content {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    gap: 72px;
+}
+
+.numbers-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.numbers-container h2{
+    color: var(--color-green);
+    font-size: var(--font-website-title2-size);
+    font-weight: var(--font-website-title1-weight);
+}
+
+.numbers-container p{
+    color: var(--color-gray1);
+    font-size: var(--font-website-p-size);
+    font-weight: var(--font-font-website-p-weight);
+    font-family: var(--font-website-p-font-family);
+}
+/*---------------------------FIM Statistic---------------------------*/
