@@ -79,4 +79,11 @@ p {
   color: var(--color-gray1);
 }
 
-
+span {
+    color:var(--color-green);
+    padding: 12px 20px;
+    border: 1px solid var(--color-gray3);
+    border-radius: 24px;
+    font-size: var(--font-website-text2-size);
+    font-weight: var(--font-website-text2-weight);
+}

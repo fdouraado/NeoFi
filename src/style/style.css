@@ -7,7 +7,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 20px 0px;
-    background-color: var(--color-gray4);
+    background-color: rgb(0, 0, 0, 1);
 }
 
 .logo-header img {
@@ -50,7 +50,7 @@ header {
     padding: 10px 20px; /* superior/inferior & esquerda/direita */
     border-radius: 20px; /* arredondamento */
     cursor: pointer; /* cursor do mouse */
-    background-color: var(--color-gray4);
+    background-color: rgb(0, 0, 0, 1);
     color: var(--color-white);
     font-size: var(--font-website-button-size);
     font-weight: var(--font-website-button-weight);
@@ -61,7 +61,7 @@ header {
 /*  --------------- main Styles --------------- */
 
 main {
-    background-color: var(--color-gray4);
+    background-color: rgb(0, 0, 0, 1);
     display: flex;
     justify-content: center;
     padding: 60px 0px;
@@ -116,7 +116,7 @@ main {
 
 /*  --------------- Partners Styles --------------- */
 .partners {
-    background-color: var(--color-gray3);
+    background-color: var(--color-gray4);
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -137,3 +137,96 @@ main {
 
 }   
 /*  --------------- FIM Partners Styles --------------- */
+
+/*  Breakdown styles */
+/* FIM Breakdown styles */
+/*  Statistics stykes */
+/* FIM Statistics styles  */
+/* Blockchain styles  */
+
+.blockchain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color: rgb(0, 0, 0, 1) ;
+}
+
+.feature-blockchain {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 890px;
+}
+
+.feature-blockchain h2 {
+    font-size: var(--font-website-title2-size);
+    font-weight: var(--font-website-title2-weight);
+}
+
+.feature-blockchain p {
+    font-size: var(--font-website-button-size);
+    font-weight: var(--font-website-button-weight);
+    font-family: "Inter", sans-serif;
+    line-height: 140%;
+    text-align: center;
+    width: 644px;
+}
+
+.content-blockchain {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-blockchain-img {
+    width: 506px;
+}
+
+.content-blockchain-box {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.container-blockchain{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 644px;
+    background-color: rgba(15, 15, 15, 1);
+    border-radius: 20px;
+    /* border-width: 1px;
+    border-style: solid;  */
+    border: 1px solid transparent;
+    background: 
+    linear-gradient(rgba(15, 15, 15, 1), rgba(15, 15, 15, 1)) padding-box,
+    linear-gradient(90deg, #4D4D4D 0%, #B3B3B3 100%) border-box;
+    padding: 30px 20px;
+}
+
+.container-blockchain-box-img {
+    width: 30px;
+}
+
+.container-blockchain-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-blockchain-content h2 {
+    font-size: var(--font-website-subtitle-size);
+    font-weight: var(--font-website-subtitle-weight);
+    font-family: "Inter", sans-serif;
+}
+
+.container-blockchain-content p {
+    font-size: var(--font-website-text1-size);
+    font-weight: var(--font-website-text1-weight);
+    width: 530px;
+}
