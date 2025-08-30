@@ -106,17 +106,16 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <!-- MODELO DE AUTOR-->
 ## 🦸 Autores
 
-<a href="https://br.linkedin.com/in/marcelo-mendes-4b399b1b0">
-Marcelo de Souza Mendes | </a>
-
-<a href="https://www.linkedin.com/in/natalia-araujo-913128277">
-Natalia Conceição de Andrade Araujo | </a>
-
-<a href="https://www.linkedin.com/in/shirley-cabral-3404a1357">
-Shirley Cabral | </a>
-
-<a href="https://www.linkedin.com/in/filipi-dourado-7732632b6">
-Filipi Dourado | </a>
+<p align="center">
+	<a href="https://br.linkedin.com/in/marcelo-mendes-4b399b1b0">
+Marcelo de Souza Mendes</a>
+	<a href="https://www.linkedin.com/in/natalia-araujo-913128277">
+Natalia Conceição de Andrade Araujo</a>
+	<a href="https://www.linkedin.com/in/shirley-cabral-3404a1357">
+Shirley Cabral</a>
+	<a href="https://www.linkedin.com/in/filipi-dourado-7732632b6">
+Filipi Dourado</a>
+</p>
 
 ---
 
