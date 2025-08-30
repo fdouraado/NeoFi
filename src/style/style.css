@@ -1,7 +1,5 @@
 @import url(./global.css);
 
-/* ----------- Header Styles -----------*/
-
 header {
     display: flex;
     justify-content: space-around;
@@ -61,10 +59,6 @@ header {
     font-size: var(--font-website-button-size);
     font-weight: var(--font-website-button-weight);
 }
-
-/* ----------- FIM Header Styles -----------*/
-
-/*  --------------- main Styles --------------- */
 
 main {
     background-color: rgb(0, 0, 0, 1);
@@ -130,9 +124,6 @@ main {
     font-size: var(--font-website-button-size);
 }
 
-/*  --------------- FIM main Styles --------------- */
-
-/*  --------------- Partners Styles --------------- */
 .partners {
     background-color: var(--color-gray4);
     display: flex;
@@ -153,9 +144,6 @@ main {
     display: flex;
 
 }
-
-/*  --------------- FIM Partners Styles --------------- */
-/* <!-----------------Section Breakdown-----------------> */
 
 .breakdown {
     display: flex;
@@ -230,10 +218,7 @@ main {
 
 }
 
-/* <!---------------- FIM Section Breakdown------------x-------> */
-
-/*--------------------------Section Statistic------------------------*/
-.Statistics {
+.statistics {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,7 +226,7 @@ main {
     background-color: var(--color-gray4);
 }
 
-.Statistics-content {
+.statistics-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,13 +237,13 @@ main {
     margin-top: 60px;
 }
 
-.Statistics-content h2 {
+.statistics-content h2 {
     color: var(--color-white);
     font-size: var(--font-website-title2-size);
     font-weight: var(--font-website-title1-weight);
 }
 
-.Statistics-content p {
+.statistics-content p {
     color: var(--color-gray1);
     font-size: var(--font-website-p-size);
     font-weight: var(--font-font-website-p-weight);
@@ -295,8 +280,6 @@ main {
     font-weight: var(--font-font-website-p-weight);
     font-family: var(--font-website-p-font-family);
 }
-
-/*---------------------------FIM Statistic---------------------------*/
 
 .blockchain {
     display: flex;
@@ -385,15 +368,15 @@ main {
     width: 530px;
 }
 
-/* --------------------------Questions--------------------- */
-.Faq {
+
+.faq {
     background-color: var(--color-gray4);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.Faq-content {
+.faq-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -401,13 +384,13 @@ main {
     margin-top: 62.5px;
 }
 
-.Faq-content h2 {
+.faq-content h2 {
     color: var(--color-white);
     font-size: var(--font-website-title2-size);
     font-weight: var(--font-website-title1-weight);
 }
 
-.Faq-content p {
+.faq-content p {
     color: var(--color-gray1);
     font-size: var(--font-website-p-size);
     font-weight: var(--font-font-website-p-weight);
@@ -416,7 +399,7 @@ main {
     text-align: center;
 }
 
-.Questions {
+.questions {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -427,7 +410,7 @@ main {
     margin-bottom: 32.5px;
 }
 
-.Questions-container {
+.questions-container {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -435,7 +418,7 @@ main {
     border: 1px solid var(--color-gray3);
 }
 
-.Questions-container p {
+.questions-container p {
     padding: 16px 20px;
     width: 732px;
     font-size: var(--font-website-text1-size);
@@ -443,15 +426,11 @@ main {
     color: var(--color-white);
 }
 
-.Questions-container img {
+.questions-container img {
     padding: 16px 20px;
 }
 
-/* -----------------------------FIM Questions---------------------------*/
-
-
-/*-----------------------------INICIO REVOLUTIONARY---------------------*/
-.Revolutionary {
+.revolutionary {
     background-color: rgb(0, 0, 0, 1);
     display: flex;
     flex-direction: column;
@@ -490,9 +469,6 @@ main {
     font-size: var(--font-website-button-size);
     margin-bottom: 60px;
 }
-/*-----------------------------FIM REVOLUTIONARY------------------------*/
-
-/* ----------- Footer Styles -----------*/
 
 .footer-content {
     background-color: rgb(0, 0, 0, 1);
