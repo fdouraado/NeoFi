@@ -22,12 +22,12 @@ header {
 }
 
 
-.nav-header ul li a {   
+.nav-header ul li a {
     text-decoration: none;
     color: var(--color-gray1);
 }
 
-.nav-header .active  {
+.nav-header .active {
     color: var(--color-white);
 }
 
@@ -37,9 +37,12 @@ header {
 }
 
 .container-btn-header .btn-tryforfree {
-    padding: 10px 20px; /* superior/inferior & esquerda/direita */
-    border-radius: 20px; /* arredondamento */
-    cursor: pointer; /* cursor do mouse */
+    padding: 10px 20px;
+    /* superior/inferior & esquerda/direita */
+    border-radius: 20px;
+    /* arredondamento */
+    cursor: pointer;
+    /* cursor do mouse */
     background-color: var(--color-green);
     color: var(--color-gray4);
     font-size: var(--font-website-button-size);
@@ -47,9 +50,12 @@ header {
 }
 
 .container-btn-header .btn-login {
-    padding: 10px 20px; /* superior/inferior & esquerda/direita */
-    border-radius: 20px; /* arredondamento */
-    cursor: pointer; /* cursor do mouse */
+    padding: 10px 20px;
+    /* superior/inferior & esquerda/direita */
+    border-radius: 20px;
+    /* arredondamento */
+    cursor: pointer;
+    /* cursor do mouse */
     background-color: rgb(0, 0, 0, 1);
     color: var(--color-white);
     font-size: var(--font-website-button-size);
@@ -101,8 +107,10 @@ main {
 
 .get-started {
     width: 151px;
-    padding: 14px 24px; /* superior/inferior & esquerda/direita */
-    border-radius: 40px; /* arredondamento */
+    padding: 14px 24px;
+    /* superior/inferior & esquerda/direita */
+    border-radius: 40px;
+    /* arredondamento */
     color: var(--color-gray4);
     background-color: var(--color-green);
 }
@@ -112,8 +120,10 @@ main {
     display: flex;
     gap: 1px;
     border: 1px solid var(--color-gray1);
-    border-radius: 40px; /* arredondamento */
-    padding: 15px 24px; /* superior/inferior & esquerda/direita */
+    border-radius: 40px;
+    /* arredondamento */
+    padding: 15px 24px;
+    /* superior/inferior & esquerda/direita */
     color: var(--color-white);
     width: 190px;
     height: 52px;
@@ -129,107 +139,109 @@ main {
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    padding: 40px 0px; 
+    padding: 40px 0px;
 }
 
-.paragrafo-principal{
+.paragrafo-principal {
     font-size: 16px;
     justify-content: space-around;
     display: flex;
 }
 
-.logoipsum{
+.logoipsum {
     gap: 50px;
     display: flex;
 
-}   
+}
+
 /*  --------------- FIM Partners Styles --------------- */
 /* <!-----------------Section Breakdown-----------------> */
 
 .breakdown {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 60px;
-  background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    background-color: rgba(0, 0, 0, 1);
 }
 
-.breakdown-future{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  width: 572px;
-  text-align: center;
-  margin-top: 60px;
+.breakdown-future {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 572px;
+    text-align: center;
+    margin-top: 60px;
 }
 
 
-.breakdown-future h2{
-color: var(--color-white);
-font-size: var(--font-website-title2-size);
-font-weight: var(--font-website-title1-weight);
+.breakdown-future h2 {
+    color: var(--color-white);
+    font-size: var(--font-website-title2-size);
+    font-weight: var(--font-website-title1-weight);
 }
 
-.breakdown-future p{
-  color: var(--color-gray1);
-  font-size: var(--font-website-p-size);
-  font-weight: var(--font-font-website-p-weight);
-  font-family: var(--font-website-p-font-family);
-  line-height: 140%;
+.breakdown-future p {
+    color: var(--color-gray1);
+    font-size: var(--font-website-p-size);
+    font-weight: var(--font-font-website-p-weight);
+    font-family: var(--font-website-p-font-family);
+    line-height: 140%;
 }
 
 .box-information {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
 }
 
 .box-breakdown {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid var(--color-gray3);
-  border-radius: 12px;
-  width: 410.67px;
-  gap: 16px;
-  margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--color-gray3);
+    border-radius: 12px;
+    width: 410.67px;
+    gap: 16px;
+    margin-bottom: 60px;
 }
 
-.box-breakdown img{
-  margin: 48px 181.33px 36px 181.33px;
-  gap: 36px;
+.box-breakdown img {
+    margin: 48px 181.33px 36px 181.33px;
+    gap: 36px;
 }
 
 .box-breakdown h2 {
-  max-width: 338.67px;
-  font-size: var(--font-website-subtitle-size);
-  font-weight: var(--font-website-subtitle-weight);
-  font-family: var(--font-website-p-font-family);
+    max-width: 338.67px;
+    font-size: var(--font-website-subtitle-size);
+    font-weight: var(--font-website-subtitle-weight);
+    font-family: var(--font-website-p-font-family);
 }
 
-.box-breakdown p{
-  font-size: var(--font-website-text1-size);
-  font-weight: var(--font-website-text1-weight);
-  margin-bottom: 48px;
-  text-align: center;
-  color: var(--color-gray1);
-  width: 338.67px;
+.box-breakdown p {
+    font-size: var(--font-website-text1-size);
+    font-weight: var(--font-website-text1-weight);
+    margin-bottom: 48px;
+    text-align: center;
+    color: var(--color-gray1);
+    width: 338.67px;
 
 }
+
 /* <!---------------- FIM Section Breakdown------------x-------> */
 
 /*--------------------------Section Statistic------------------------*/
 .Statistics {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 20px;
-   background-color: var(--color-gray4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--color-gray4);
 }
 
-.Statistics-content{
+.Statistics-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,13 +252,13 @@ font-weight: var(--font-website-title1-weight);
     margin-top: 60px;
 }
 
-.Statistics-content h2{
+.Statistics-content h2 {
     color: var(--color-white);
     font-size: var(--font-website-title2-size);
     font-weight: var(--font-website-title1-weight);
 }
 
-.Statistics-content p{
+.Statistics-content p {
     color: var(--color-gray1);
     font-size: var(--font-website-p-size);
     font-weight: var(--font-font-website-p-weight);
@@ -255,6 +267,7 @@ font-weight: var(--font-website-title1-weight);
     text-align: center;
     width: 644px;
 }
+
 .numbers-content {
     display: flex;
     align-items: center;
@@ -262,7 +275,7 @@ font-weight: var(--font-website-title1-weight);
     gap: 72px;
 }
 
-.numbers-container{
+.numbers-container {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -270,18 +283,19 @@ font-weight: var(--font-website-title1-weight);
     margin-bottom: 60px;
 }
 
-.numbers-container h2{
+.numbers-container h2 {
     color: var(--color-green);
     font-size: var(--font-website-title2-size);
     font-weight: var(--font-website-title1-weight);
 }
 
-.numbers-container p{
+.numbers-container p {
     color: var(--color-gray1);
     font-size: var(--font-website-p-size);
     font-weight: var(--font-font-website-p-weight);
     font-family: var(--font-website-p-font-family);
 }
+
 /*---------------------------FIM Statistic---------------------------*/
 
 .blockchain {
@@ -289,7 +303,7 @@ font-weight: var(--font-website-title1-weight);
     flex-direction: column;
     align-items: center;
     gap: 60px;
-    background-color: rgb(0, 0, 0, 1) ;
+    background-color: rgb(0, 0, 0, 1);
 }
 
 .feature-blockchain {
@@ -333,7 +347,7 @@ font-weight: var(--font-website-title1-weight);
     margin-bottom: 60px;
 }
 
-.container-blockchain{
+.container-blockchain {
     display: flex;
     gap: 40px;
     align-items: center;
@@ -343,9 +357,9 @@ font-weight: var(--font-website-title1-weight);
     /* border-width: 1px;
     border-style: solid;  */
     border: 1px solid transparent;
-    background: 
-    linear-gradient(rgba(15, 15, 15, 1), rgba(15, 15, 15, 1)) padding-box,
-    linear-gradient(90deg, #4D4D4D 0%, #B3B3B3 100%) border-box;
+    background:
+        linear-gradient(rgba(15, 15, 15, 1), rgba(15, 15, 15, 1)) padding-box,
+        linear-gradient(90deg, #4D4D4D 0%, #B3B3B3 100%) border-box;
     padding: 30px 20px;
 }
 
@@ -353,7 +367,7 @@ font-weight: var(--font-website-title1-weight);
     width: 30px;
 }
 
-.container-blockchain-content{
+.container-blockchain-content {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -370,6 +384,7 @@ font-weight: var(--font-website-title1-weight);
     font-weight: var(--font-website-text1-weight);
     width: 530px;
 }
+
 /* --------------------------Questions--------------------- */
 .Faq {
     background-color: var(--color-gray4);
@@ -386,7 +401,7 @@ font-weight: var(--font-website-title1-weight);
     margin-top: 62.5px;
 }
 
-.Faq-content h2{
+.Faq-content h2 {
     color: var(--color-white);
     font-size: var(--font-website-title2-size);
     font-weight: var(--font-website-title1-weight);
@@ -401,7 +416,7 @@ font-weight: var(--font-website-title1-weight);
     text-align: center;
 }
 
-.Questions{
+.Questions {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -429,12 +444,49 @@ font-weight: var(--font-website-title1-weight);
 }
 
 .Questions-container img {
-    padding:16px 20px;
+    padding: 16px 20px;
 }
+
 /* -----------------------------FIM Questions---------------------------*/
 
 
+/*-----------------------------INICIO REVOLUTIONARY---------------------*/
+.Revolutionary {
+    background-color: rgb(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 
+.revolutionary-content {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.revolutionary-content h2 {
+    margin-top: 20px;
+    color: var(--color-white);
+    font-size: var(--font-website-title2-size);
+    font-weight: var(--font-website-title1-weight);
+}
 
+.revolutionary-content p {
+    color: var(--color-gray1);
+    font-size: var(--font-website-p-size);
+    font-weight: var(--font-font-website-p-weight);
+    font-family: var(--font-website-p-font-family);
+    margin-top: 20px;
+}
+ 
+.button .btn-get{
+    padding: 15px 30px;
+    background-color: var(--color-green);
+    margin-top: 20px;
+    font-family: var(--font-website-button-size);
+    font-weight: var(--font-website-button-weight);
+    font-size: var(--font-website-button-size);
+}
+/*-----------------------------FIM REVOLUTIONARY------------------------*/
